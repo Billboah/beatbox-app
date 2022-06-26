@@ -1,0 +1,46 @@
+body {
+              margin: 0;
+              display: flex;
+              width: 100%;
+              height: 100vh;
+              justify-content: center;
+              align-items: center;
+              background: url(./asset/background.jpeg);
+              background-size: cover;
+}
+
+.beatbox {
+              background-color: rgba(0, 0, 0, 0.8);
+              height: 600px;
+              width: 600px;
+              border-radius: 20px;
+              display: flex;
+              flex-wrap: wrap;
+              align-content: space-evenly;
+              justify-content: center;              
+}
+
+.beat {
+              width: 130px;
+              height: 130px;
+              flex-basis: 29%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+}
+
+.button {
+              width: 120px;
+              height: 120px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              border: 5px solid aqua;
+              border-radius: 10px;
+              font-size: 25px;
+              color: white;
+              transition: all 0.2s;
+}
+
+
+
