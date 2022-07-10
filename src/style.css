@@ -13,6 +13,8 @@ body {
               background-color: rgba(0, 0, 0, 0.8);
               height: 600px;
               width: 600px;
+              min-height: fit-content;
+              min-width: fit-content;
               border-radius: 20px;
               display: flex;
               flex-wrap: wrap;
